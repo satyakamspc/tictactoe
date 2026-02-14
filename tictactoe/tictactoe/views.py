@@ -1,3 +1,3 @@
 from django.shortcuts import render
-def layout(request):
-    return render(request,'layout.html',{"cells":range(9)})
+def index(request):
+    return render(request,'index.html',{"cells":range(9)})
